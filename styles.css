@@ -1,0 +1,49 @@
+/* CSS Styles for the responsive.html Website */
+
+/* This portion makes the nav menu horizontal and the text for each button
+highlight blue when the mouse hovers over the text*/
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    max-width: 960px;
+}
+
+nav ul li:hover{
+    color: blue;
+}
+
+/* This portion centers the large image in the middle of the page */
+
+.big-img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* This portion edits the text paragraphs */
+
+.para{
+    height: 20%;
+    padding: 5px;
+    max-width: 960px;
+}
+
+h3{
+    display: flex;
+}
+
+p{
+    margin: auto;
+}
+
+/* This portion sets the smaller images in a line horizontally as opposed to vertically */
+
+div ul li{
+    display: inline-block;
+    padding-top: 30px;
+    max-width: 960px;
+    width: 200px;
+}
+
